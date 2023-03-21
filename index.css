@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply hidden 
+}
+.wrappernav input{
+    @apply hidden;
+}
+#menu-primary{
+   @apply  flex justify-center gap-10 relative text-xl 
+}
+#menu-item-909>.sub-menu{
+    @apply bg-slate-500 grid grid-cols-3 grid-rows-2 pr-20 absolute text-gray-200 mt-8 -ml-20 text-xl hidden
+}
+#menu-primary #menu-item-909{
+    @apply   leading-8  
+}
+#menu-item-917 >a,#menu-item-921>a,#menu-item-924>a,#menu-item-929>a,#menu-item-934>a,#menu-item-936>a,#menu-item-937>a{
+    @apply text-blue-900 font-bold 
+}
+#menu-item-917{
+    @apply m-7 mb-0 h-40 
+}
+#menu-item-921{
+    @apply  m-7 mb-0 h-40 w-56
+}
+#menu-item-924{
+    @apply m-7 mb-0 h-40
+}
+#menu-item-929{
+    @apply m-7 mt-0 w-60 
+}
+#menu-item-934{
+    @apply  m-7 mt-0 
+}
+#menu-item-936{
+    @apply  m-7 h-10 mt-9 
+}
+#menu-item-937{
+     @apply  m-7 mb-0 
+}
+#menu-item-909 a:hover + .sub-menu{
+    @apply block grid grid-cols-3 grid-rows-2 pr-20 absolute text-gray-200 mt-8 -ml-20 text-xl
+}
+
+
